@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: rgb(246, 220, 224);">
+    <h1 style="text-align: center;"> Student Registration Form</h1>
+    <form action="form" id="form" background-color="light-pink">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="roll">Roll Number</label>
+      <input type="text" id="roll" name="roll" required><br><br>
+      <label for="fathers name">Father's Name</label>
+      <input type="text" id="fathers name" name="fathers name" required><br><br>
+      <label for="date of birth">Date of Birth</label>
+      <input type="date" id="date of birth" name="date of birth" required><br><br>
+      <label for="mobile no">Mobile Number</label>
+      <input type="text" id="mobile no" name="mobile no" required><br><br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <label for="gender">Gender</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+      <label for="branch">Branch</label>
+      <select id="branch" name="branch" required>
+        <option value="">Select Branch</option>
+        <option value="cse">Computer Science Engineering</option>
+        <option value="it">Information Technology</option>
+        <option value="mech">Mechanical Engineering</option>
+        <option value="elec">Electrical Engineering</option>
+      </select><br><br>
+      <label for="course">Course</label>
+        <input type="checkbox" id="course1" name="course" value="course1">
+        <label for="course1">Course 1</label>
+        <input type="checkbox" id="course2" name="course" value="course2">
+        <label for="course2">Course 2</label>
+        <input type="checkbox" id="course3" name="course" value="course3">
+        <label for="course3">Course 3</label><br><br>
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required><br><br>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+      
+       <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
